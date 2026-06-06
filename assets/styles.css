@@ -1,0 +1,39 @@
+.mi-navbar {
+    background-color: #46c7ee;
+    color: rgb(255, 255, 255);
+    transition: background-color 0.3s ease;
+}
+
+[data-bs-theme="dark"] .mi-navbar {
+    background-color: #1f2937;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.mi-navbar .nav-link,
+.mi-navbar .navbar-brand {
+    color: white !important;
+}
+
+.card {
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    /*filter: brightness(1.20);   se lo quite porque en modo light se ve feo */
+}
+
+
+.mi-navbar .nav-link {
+    position: relative;
+    font-weight: 500;
+    transition: all 0.2s ease;
+    padding: 8px 12px;
+    border-radius: 8px;
+}
+
+.mi-navbar .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: translateY(-1px);
+}
