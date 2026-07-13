@@ -1,0 +1,50 @@
+.statistics-card {
+
+    background-color: var(--bs-body-bg);
+    border-radius: 12px;
+    padding: 20px;
+
+    box-shadow: 0 2px 8px rgba(0,0,0,.1);
+
+
+    &__title {
+        font-weight: 600;
+        margin-bottom: 1rem;
+    }
+
+
+    &__item {
+
+        padding: 10px;
+        border-radius: 8px;
+
+        background-color: rgba(0,0,0,.05);
+
+        text-align: center;
+
+
+        h5 {
+            font-size: 0.9rem;
+            margin-bottom: 5px;
+        }
+
+
+        p {
+            font-size: 1.4rem;
+            font-weight: bold;
+            margin: 0;
+        }
+
+    }
+
+
+    &__summary {
+
+        margin-top: 1rem;
+
+        font-weight: 600;
+        text-align: center;
+
+    }
+
+}

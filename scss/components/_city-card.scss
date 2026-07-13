@@ -1,0 +1,33 @@
+@use "../base/variables" as *;
+@use "../base/mixins" as *;
+
+.city-card {
+  background-color: var(--bs-body-bg);
+  padding: $spacing-md;
+  transition: transform $transition-fast;
+  @include card-shadow;
+    
+  &:hover {
+    transform: translateY(-5px);
+  }
+
+  &__title {
+    font-weight: 600;
+    margin-bottom: 8px;
+  }
+
+  &__icon {
+    display: block;
+    margin: 10px 0;
+  }
+
+  &__temp {
+    font-size: 2rem;
+    margin: 5px 0;
+  }
+
+  &__status {
+    opacity: .8;
+    margin: 0;
+  }
+}
